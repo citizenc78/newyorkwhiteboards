@@ -173,6 +173,13 @@ table.spec td:first-child{font-weight:600;color:var(--ink);width:40%;background:
 .product-block:first-of-type{border-top:0}
 .product-note{font-size:14px;color:#6b767e;margin-top:14px}
 
+/* ---------- stat strip ---------- */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:56px}
+.stat .num{font-size:clamp(30px,3.4vw,44px);font-weight:700;color:var(--ink);line-height:1.1}
+.stat .num span{color:var(--mint)}
+.stat p{font-size:14px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--body);margin-top:6px}
+@media (max-width:800px){.stats{grid-template-columns:1fr 1fr}}
+
 /* ---------- CTA strip ---------- */
 .cta-strip{background:var(--ink);color:#fff;padding:64px 0}
 .cta-strip .row{display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap}
