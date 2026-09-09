@@ -70,7 +70,7 @@ h1 .pop{color:var(--mint)}
 .hero-art{position:relative}
 .badge{
   position:absolute;right:0;bottom:-26px;width:min(300px,80%);
-  background:var(--mint);color:var(--mint-ink);padding:26px 26px 24px;
+  background:var(--mint);color:var(--mint-ink);padding:56px 30px 30px;
   clip-path:polygon(0 14%,50% 0,100% 14%,100% 100%,0 100%);
 }
 .badge .big{font-size:56px;font-weight:700;line-height:1;color:var(--ink)}
