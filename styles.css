@@ -162,6 +162,17 @@ h3.sub{color:var(--ink);font-size:24px;font-weight:600;margin:44px 0 10px}
 .acc-body{max-height:0;overflow:hidden;transition:max-height .3s ease}
 .acc-body .inner{padding:0 28px 26px;max-width:75ch;font-size:16px}
 
+/* ---------- product blocks ---------- */
+.feat{list-style:none;margin:20px 0 0;padding:0}
+.feat li{position:relative;padding-left:30px;margin-bottom:10px;font-size:16px}
+.feat li::before{content:"\2713";position:absolute;left:0;top:0;color:var(--red);font-weight:700}
+table.spec{width:100%;border-collapse:collapse;font-size:15px;margin-top:22px}
+table.spec td{padding:10px 14px;border:1px solid var(--line);vertical-align:top}
+table.spec td:first-child{font-weight:600;color:var(--ink);width:40%;background:#fafafa}
+.product-block{padding:80px 0;border-top:1px solid #f1f1f1}
+.product-block:first-of-type{border-top:0}
+.product-note{font-size:14px;color:#6b767e;margin-top:14px}
+
 /* ---------- CTA strip ---------- */
 .cta-strip{background:var(--ink);color:#fff;padding:64px 0}
 .cta-strip .row{display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap}
